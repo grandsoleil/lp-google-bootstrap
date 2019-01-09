@@ -1,3 +1,36 @@
-.border-flex {
+/* .border-flex {
 	border: 2px solid red;
+} */
+
+body {
+	font-family: roboto, arial, sans-serif;
+	background-color:#f0eff1;
+}
+
+footer {
+	height: 90px;
+	color: white;
+	background-color: #4285f4;
+}
+
+#page {
+	min-height:100vh;
+	display:flex;
+	flex-direction:column;
+}
+
+#nav-header a {
+	color:#2f2f2f;
+}
+
+#nav-header a:hover {
+	color:#2f2f2f;
+}
+
+#content {
+	flex-grow:2;
+}
+
+.navbar-header {
+	background-color:white;
 }
